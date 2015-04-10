@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="返回" />
+
+        <com.cengalabs.flatui.views.FlatButton
+
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="确定" />
+
+    </LinearLayout>
+
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:id="@+id/tv_add_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="当前时间："
+        android:textSize="20sp"
+        flatui:fl_textColor="fl_main"
+        flatui:fl_theme="@array/grass"/>
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:hint="添加笔记"
+        android:textSize="20sp"
+        flatui:fl_textColor="fl_main" />
+
+
+</LinearLayout>

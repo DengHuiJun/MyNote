@@ -12,7 +12,6 @@ import android.widget.Toast;
 import com.cengalabs.flatui.views.FlatButton;
 import com.cengalabs.flatui.views.FlatEditText;
 import com.cengalabs.flatui.views.FlatTextView;
-import com.zero.mynote.MainActivity;
 import com.zero.mynote.R;
 import com.zero.mynote.db.NoteInfo;
 

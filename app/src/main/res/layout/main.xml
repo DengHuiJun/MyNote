@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:dividerHeight="10dp">
 
-        </ListView>
+    </ListView>
 
 
 </LinearLayout>

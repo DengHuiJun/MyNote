@@ -46,6 +46,8 @@
         android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:gravity="top"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:hint="添加笔记"
         android:textSize="20sp"
         flatui:fl_textColor="fl_main" />
